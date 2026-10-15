@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bharat Bazar - Online shoping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <h1>🇮🇳 Bharat Bazar</h1>
+    <p>Your shopping, your choice!</p>
+    <div class="cart">🛒 Cart: <span id="cart-count">0</span></div>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#offers">Offers</a>
+  </nav>
+
+  <main id="home">
+    <section class="welcome">
+      <h2>Welcome to Bharat Bazar!</h2>
+      <p>Discover great products at great prices.</p>
+      <button onclick="showOffer()">View Today's Offer</button>
+      <p id="offer-message"></p>
+    </section>
+
+    <h2 id="products" class="section-title">Our Products</h2>
+
+    <section class="products">
+      <article class="product-card">
+        <div class="product-icon">👕</div>
+        <h3>Stylish T-Shirt</h3>
+        <p>Comfortable everyday wear</p>
+        <p class="price">₹499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-icon">🎒</div>
+        <h3>School Backpack</h3>
+        <p>Useful for school and travel</p>
+        <p class="price">₹799</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-icon">⌚</div>
+        <h3>Wrist Watch</h3>
+        <p>A simple everyday accessory</p>
+        <p class="price">₹999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-icon">🎧</div>
+        <h3>Headphones</h3>
+        <p>Enjoy your favourite music</p>
+        <p class="price">₹699</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </article>
+    </section>
+
+    <section id="offers" class="offer-section">
+      <h2>Special Offer</h2>
+      <p>Explore our products and find something you love!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Bharat Bazar | Made with HTML, CSS and JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+    
+</body>
+</html>
